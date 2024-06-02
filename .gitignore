@@ -1,0 +1,34 @@
+# Ignora todos os arquivos e diretórios gerados pelo sistema operacional
+.DS_Store
+Thumbs.db
+
+# Ignora diretórios de build
+/build/
+/dist/
+/out/
+
+# Ignora arquivos de log e temporários
+*.log
+*.tmp
+*.swp
+
+# Ignora dependências de pacotes
+/node_modules/
+/vendor/
+
+# Ignora arquivos de IDE e editores
+/.idea/
+/.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Ignora arquivos de configuração do sistema
+.env
+*.local
+
+# Ignora arquivos e diretórios específicos do seu projeto
+/path/to/your/specific/file_or_directory
+
+# Exceções - para incluir um arquivo ou diretório específico que foi ignorado anteriormente
+!important_file.txt
+!important_directory/
