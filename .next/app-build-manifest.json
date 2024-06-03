@@ -1,20 +1,64 @@
 {
   "pages": {
-    "/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/page.js"
+    "/_not-found/page": [
+      "static/chunks/webpack-bbf38ab73833ad8f.js",
+      "static/chunks/fd9d1056-00bb33a35b5f8051.js",
+      "static/chunks/23-509d2c9a3fbd8547.js",
+      "static/chunks/main-app-dfdc996f0b10bec9.js",
+      "static/chunks/app/_not-found/page-8520002249bfd8d4.js"
     ],
     "/layout": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/layout.css",
-      "static/chunks/app/layout.js"
+      "static/chunks/webpack-bbf38ab73833ad8f.js",
+      "static/chunks/fd9d1056-00bb33a35b5f8051.js",
+      "static/chunks/23-509d2c9a3fbd8547.js",
+      "static/chunks/main-app-dfdc996f0b10bec9.js",
+      "static/css/46d0b2ea1e60bff7.css",
+      "static/chunks/app/layout-2c6e4bf9efbd2360.js"
     ],
     "/[...not_found]/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/[...not_found]/page.js"
+      "static/chunks/webpack-bbf38ab73833ad8f.js",
+      "static/chunks/fd9d1056-00bb33a35b5f8051.js",
+      "static/chunks/23-509d2c9a3fbd8547.js",
+      "static/chunks/main-app-dfdc996f0b10bec9.js",
+      "static/chunks/30-df857747476ee8cc.js",
+      "static/chunks/app/[...not_found]/page-6ed42d551dc92d26.js"
+    ],
+    "/components/projetos/page": [
+      "static/chunks/webpack-bbf38ab73833ad8f.js",
+      "static/chunks/fd9d1056-00bb33a35b5f8051.js",
+      "static/chunks/23-509d2c9a3fbd8547.js",
+      "static/chunks/main-app-dfdc996f0b10bec9.js",
+      "static/chunks/30-df857747476ee8cc.js",
+      "static/chunks/app/components/projetos/page-c169b61f63497f2d.js"
+    ],
+    "/components/skills/page": [
+      "static/chunks/webpack-bbf38ab73833ad8f.js",
+      "static/chunks/fd9d1056-00bb33a35b5f8051.js",
+      "static/chunks/23-509d2c9a3fbd8547.js",
+      "static/chunks/main-app-dfdc996f0b10bec9.js",
+      "static/chunks/app/components/skills/page-0ece7b0f6e4f330e.js"
+    ],
+    "/components/sobre/page": [
+      "static/chunks/webpack-bbf38ab73833ad8f.js",
+      "static/chunks/fd9d1056-00bb33a35b5f8051.js",
+      "static/chunks/23-509d2c9a3fbd8547.js",
+      "static/chunks/main-app-dfdc996f0b10bec9.js",
+      "static/chunks/30-df857747476ee8cc.js",
+      "static/chunks/app/components/sobre/page-e91f9edcf60061ec.js"
+    ],
+    "/page": [
+      "static/chunks/webpack-bbf38ab73833ad8f.js",
+      "static/chunks/fd9d1056-00bb33a35b5f8051.js",
+      "static/chunks/23-509d2c9a3fbd8547.js",
+      "static/chunks/main-app-dfdc996f0b10bec9.js",
+      "static/chunks/30a37ab2-03b01a50a6139606.js",
+      "static/chunks/94730671-ff508bdccbaffb2d.js",
+      "static/chunks/5e22fd23-2f8104a4104ef98b.js",
+      "static/chunks/9c4e2130-a7612d0e98ab0392.js",
+      "static/chunks/8e1d74a4-fccf32d414773054.js",
+      "static/chunks/30-df857747476ee8cc.js",
+      "static/chunks/369-9add7c78050e024b.js",
+      "static/chunks/app/page-af46a6bed527724a.js"
     ]
   }
 }

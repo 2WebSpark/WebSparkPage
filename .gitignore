@@ -1,34 +1,35 @@
-# Ignora todos os arquivos e diretórios gerados pelo sistema operacional
-.DS_Store
-Thumbs.db
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-# Ignora diretórios de build
-/build/
-/dist/
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# next.js
+/.next/
 /out/
 
-# Ignora arquivos de log e temporários
-*.log
-*.tmp
-*.swp
+# production
+/build
 
-# Ignora dependências de pacotes
-/node_modules/
-/vendor/
+# misc
+.DS_Store
+*.pem
 
-# Ignora arquivos de IDE e editores
-/.idea/
-/.vscode/
-*.sublime-project
-*.sublime-workspace
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
-# Ignora arquivos de configuração do sistema
-.env
-*.local
+# local env files
+.env*.local
 
-# Ignora arquivos e diretórios específicos do seu projeto
-/path/to/your/specific/file_or_directory
+# vercel
+.vercel
 
-# Exceções - para incluir um arquivo ou diretório específico que foi ignorado anteriormente
-!important_file.txt
-!important_directory/
+# typescript
+*.tsbuildinfo
+next-env.d.ts
