@@ -3,11 +3,12 @@
 import { AnimatePresence, motion } from 'framer-motion'
 import { useEffect } from 'react'
 import Header from './components/Header'
-import Skills from './components/skills/page'
+import Skills from './components/missao/page'
 import Projetos from './components/projetos/page'
-import Sobre from './components/sobre/page'
+import Sobre from './components/quemsomos/page'
 import { usePathname } from 'next/navigation'
-
+import Image from 'next/image'
+import Logo from '@/app/assets/Logo.svg'
 export default function Home() {
   const pathname = usePathname()
 
@@ -37,13 +38,13 @@ export default function Home() {
             transition={{ duration: 0.5 }}
           >
             <section
-              id="sobre"
+              id="Quem Somos"
               className="w-full h-screen flex items-center justify-center"
             >
               <Sobre />
             </section>
             <section
-              id="skills"
+              id="missao"
               className="w-full h-screen flex items-center justify-center"
             >
               <Skills />
@@ -57,6 +58,9 @@ export default function Home() {
           </motion.div>
         </AnimatePresence>
       </main>
+      <footer className="flex justify-between items-center  w-full bg-[#17102398] backdrop-blur px-16 py-4">
+        <Image src={Logo} alt="Logo" width={250} />
+      </footer>
     </div>
   )
 }

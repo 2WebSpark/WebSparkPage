@@ -7,10 +7,10 @@ export default function Projetos() {
     <div className="flex flex-col justify-center items-center gap-20">
       <div className="flex flex-col justify-center items-center mt-10">
         <h1 className="text-4xl font-bold text-[#7DFFAF] leading-tight">
-          Meus projetos
+          Nosso Portifólio
         </h1>
         <p className="font-medium text-lg text-[#F5F6F6]">
-          Alguns projetos desenvolvidos por mim
+          Confira alguns dos websites desenvolvidos recentemente por nós{' '}
         </p>
       </div>
       <div className="flex gap-16">
